@@ -53,7 +53,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
           </div>
         ))}
       </div>
-      <CldUploadWidget onUpload={onUpload} uploadPreset="upload_preset_gbh">
+      <CldUploadWidget onUpload={onUpload} uploadPreset="t4drjppf">
         {({ open }) => {
           const onClick = () => {
             open();
@@ -63,7 +63,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
             <Button 
               type="button" 
               disabled={disabled} 
-              variant="secondary"
+              variant="secondary" 
               onClick={onClick}
             >
               <ImagePlus className="h-4 w-4 mr-2" />
